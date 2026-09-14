@@ -1,0 +1,21 @@
+# Backend
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# Data
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Deep Learning
+tensorflow
+
+# Model Evaluation / Monitoring
+scipy
+
+# Experiment Tracking
+mlflow

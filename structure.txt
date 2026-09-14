@@ -1,0 +1,27 @@
+upi-fraud-mlops/
+│
+├── frontend/
+│   └── src/
+│       ├── App.jsx
+│       ├── Dashboard.jsx
+│       └── Payment.jsx
+│
+├── backend/
+│   ├── main.py
+│   ├── model.py
+│   └── retrain.py
+│
+├── ml/
+│   ├── generate_data.py
+│   └── train.py
+│
+├── data/
+│   ├── transactions.csv
+│   └── recipients.json
+│
+├── models/
+│   ├── model_v1.pkl
+│   └── model_v2.pkl
+│
+├── requirements.txt
+└── README.md
