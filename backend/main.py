@@ -8,7 +8,6 @@ app = FastAPI(
     title="UPI Fraud Detection API",
     version="1.0.0",
 )
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -20,7 +19,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 fraud_model = FraudModel(
     version="v2"
 )
