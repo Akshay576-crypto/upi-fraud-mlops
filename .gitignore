@@ -23,4 +23,4 @@ mlruns/
 Thumbs.db
 
 # Logs
-*.log
+*.log.pytest_cache/
